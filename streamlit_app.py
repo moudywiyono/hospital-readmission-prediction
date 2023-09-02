@@ -2,6 +2,7 @@
 
 import streamlit as st
 from google.oauth2 import service_account
+from google.auth import compute_engine
 from gsheetsdb import connect
 from collections.abc import Iterable
 
